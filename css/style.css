@@ -1,0 +1,59 @@
+a.active {
+    background-color: white;
+    color: black !important;
+    border-radius: 5px;
+}
+.card{
+    height: 450px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+hr{
+    background-color: red;
+    width: 25%;
+    float: left;
+}
+.image-container{
+    position:relative;
+    overflow: hidden;
+    background-color: blue;
+    height: 400px;
+    width: 300px;
+}
+.image-container img{
+    height: 400px;
+    width: 300px;
+}
+#zoomin,#zoomout,#zoomin2,#zoomin3{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 1%;
+    font-size: xx-large;
+    display: none;
+}
+#fullimage{
+    position:relative;
+    overflow: hidden;
+    display: none;
+    width: 600px;
+    height: 500px;
+}
+#full_image{
+    width: 600px;
+    height: 500px;
+}
+.about_nav a{
+    color: white;
+}
+.contact-btn{
+    padding: 1%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+}
